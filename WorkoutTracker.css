@@ -1,0 +1,379 @@
+* {
+  margin:0;
+  transition: ease all 1s;
+  color:#EDF5e1;
+}
+
+html {
+  background-color:#CAFAFE;
+}
+
+#header {
+  background-color:#1d3557;
+  height: 100px;
+  margin: 10px;   
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#headerAndLogo {
+  display:flex;
+  margin-top: 5px;
+  font-size: 15px;
+  align-items: center;
+  justify-content: center;
+  zoom: 0.55;
+}
+
+#headerHeader {
+  /* left:50%; */
+  font-size:65px;
+  margin:0;
+  margin-right:35px;
+}
+
+#DumbbellImgHeader {
+  width: 70px;
+  height: 60%;
+  margin:10px;
+}
+
+/* Buttons ------------------------------------- */
+#buttonHoldingContainer {
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+}
+
+#buttonOneContainer {
+  background-color: #FC4445;
+  /* #FC4445 */
+  height: 300px;
+  margin:10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  width: 95%;
+}
+.startWorkoutButton {
+  /* height:300px;
+  width:100%; */
+  letter-spacing: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+#undoWorkoutButton {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(224, 73, 73, 0.767);
+  top: -80px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+#buttonTwoContainer {
+  background-color: #FC4445;
+  /* #FC4445 */
+  height: 300px;
+  margin:10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  width: 95%;
+}
+
+.startRestButton {
+  letter-spacing: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#undoRestButton {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(224, 73, 73, 0.767);
+  top: -80px;
+  padding: 10px;
+  border-radius: 20px;
+  
+}
+
+/* --------------------------------------------- */
+
+#contentDivOne {
+  display: flex;
+  flex-direction: column;
+  zoom: 0.55;
+}
+
+#contentDivTwo {
+  display:flex;
+  flex-direction: column;
+  zoom: 0.55;
+}
+
+/* Table CSS --------------------------------------> */
+
+table {
+  height: 90%;
+  width: 90%;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  
+}
+
+th {
+  padding: 22px;
+  text-align: left;
+  font-size: 30px;
+  letter-spacing: 2px;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  border-collapse: collapse;
+}
+
+td {
+  text-align: center;
+  border-collapse: collapse;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  border-left: 1px solid rgb(255, 255, 255);
+}
+
+/* -------------------------------------------------> */
+
+#startRestTimeContainer {
+  background-color:#55BCC9;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content:center;
+  margin: 10px;   
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+#startWorkoutTimeContainer {
+  background-color:#97CAEF;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content:center;
+  margin: 10px;   
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  font-size: 90%;
+}
+
+#footerContainer {
+  background-color:#1d3557;
+  height: 100px;
+  margin: 10px;   
+  margin-top: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  grid-area:footer;
+  display: flex;
+  position:relative;
+  bottom: 0;
+  zoom: 0.78;
+}
+
+#logoAndName {
+  display:flex;
+  margin-top: 5px;
+  font-size: 15px;
+  align-items: center;
+}
+
+#DumbbellImgFooter {
+  position:relative;
+  top: 0;
+  width: 30px;
+  height: 20px;
+  max-height: 40%;
+  margin:10px;
+}
+
+#copyrightFooter {
+  position: absolute;
+	bottom: 0;
+	left: 2px;
+  font-size:15px;
+  margin:10px;
+}
+
+#linkedinImg {
+  position: absolute;
+  top:25%;
+  right:15px;
+  height:55%;
+  width:40px;
+  max-height: 50px;
+  max-width: 50px;
+  min-width: 50px;
+  min-height: 50px;
+}
+
+#gitHubImg {
+  position: absolute;
+  top:15%;
+  right:70px;
+  width:50px;
+  height:70%;
+  max-height: 68px;
+  max-width: 60px;
+  min-width: 60px;
+  min-height: 68px;
+}
+
+/* Media Queries for Larger than Mobile Screens */
+@media (min-width:768px)  {
+  body {
+    display: flex;
+    justify-content: center;
+  }
+
+  #mainContainer {
+    width: 700px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #header {
+    margin: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  #headerAndLogo {
+    zoom: 1;
+  }
+
+  #buttonOneContainer {
+    margin: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .startWorkoutButton {
+  font-size: 40px;
+  }
+
+  .startRestButton {
+  font-size: 40px;
+  }
+
+  #buttonTwoContainer {
+    margin: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  #contentDivOne {
+    display: flex;
+    zoom: 1;
+  }
+
+  #contentDivTwo {
+    display: flex;
+    zoom: 1;
+  }
+
+  #startRestTimeContainer {
+    margin: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  #startWorkoutTimeContainer {
+    margin: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    font-size: 90%;
+  }
+
+  #undoWorkoutContainer {
+    margin: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  #undoRestContainer {
+    margin: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  #footerContainer {
+    margin: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    zoom: 1;
+  }
+}
+
+/* big landscape tablets, laptops, and desktops */ 
+@media (min-width:1025px) {
+  body {
+    display: flex;
+    justify-content: center;
+    height:100%;
+  }
+
+  #mainContainer {
+    width: 1000px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 100%;
+  }
+
+  #header {
+    margin: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  #buttonOneContainer {
+    margin: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  #buttonTwoContainer {
+    margin: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  #startRestTimeContainer {
+    margin: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  #startWorkoutTimeContainer {
+    margin: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    font-size: 100%;
+  }
+
+  #undoWorkoutContainer {
+    margin: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  #undoRestContainer {
+    margin: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  }
+
+
+  #footerContainer {
+    margin: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  }
+}
