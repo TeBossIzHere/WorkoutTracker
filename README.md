@@ -31,3 +31,11 @@ Basic HTML/CSS/JS Workout Tracker - In Progress
     c. Rest Data will now display total rest time.
     d. New Data will be entered to your local storage.
     e. Average rest time will be calculated with locally stored data.
+    
+# Future Enhancements
+  1. Add back-end framework using NodeJS and Express.
+  2. Instead of LocalStorage, add third party database.
+  3. Combine Other projects (i.e. calorie calculator).
+  4. Convert simple workout tracker to a comprehensive fitness website. 
+
+
