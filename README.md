@@ -11,12 +11,12 @@ Basic HTML/CSS/JS Workout Tracker - In Progress
 # Getting Started
 
   1. Begin workout by clicking "START WORKOUT"
-    - Button will turn green.
-    - Workout Data will now display start workout time.
+    a. Button will turn green.
+    b. Workout Data will now display start workout time.
     
   2. Begin rest by clicking "START REST"
-    - Button will turn green.
-    - Rest Data will now display start of rest time.
+    a. Button will turn green.
+    b. Rest Data will now display start of rest time.
     
   3. End workout by re-clicking "STOP WORKOUT"
     a. Button will Turn Red.
