@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta charset="UTF-8">
+	<meta name="description" content="HTML/CSS/JS Workout Timer Website by Muzaffer Ozen.">
+	<meta name="keywords" content="workout, workout timer, workout timer app, timer, timer app">
+	<meta name="author" content="Muzaffer B. Ozen">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Workout Timer Website</title>
+
+	<link href="/style.css" rel="stylesheet" type="text/css" />
+	<script src="/script.js" defer>
+
+	</script>
+	<script src="https://code.jquery.com/jquery-3.5.0.js">
+
+	</script>
+</head>
+
+<body>
+	<div id="mainContainer">
+		<!-- Header -------------------------------------->
+		<div id="header">
+			<div id="headerAndLogo">
+				<img src="https://i.imgur.com/950J1fr_d.webp?maxwidth=760&fidelity=grand" id="DumbbellImgHeader">
+        <h1 id="headerHeader">Workout Tracker</h1>
+        </div>
+		</div>
+
+		<!-- Start Stop Buttons --------------------------->
+    <div id="buttonHoldingContainer">
+		  <div id="buttonOneContainer" onclick="toggleWorkoutFunction()">
+        <div><h1 class="startWorkoutButton">START WORKOUT</h1></div>
+        </div>
+        <div id="undoWorkoutButton" onclick="undoWorkoutButtonFunction()">UNDO</div>
+      <div id="buttonTwoContainer" onclick="toggleRestFunction()"> 
+        <div><h1 class="startRestButton">START REST</h1></div>
+        </div>
+        <div id="undoRestButton" onclick="undoRestButtonFunction()">UNDO</div>
+      </div>
+
+    <div id="contentDivOne">
+      <!-- Start Rest Time --------------------------->
+      <!-- turn this into +2, +3, +4,+5 rest equivalents -->
+        <div id="startRestTimeContainer">
+          <table style="height: 50px;">
+            <tr>
+              <th>START <i style="font-size:23px">REST</i></th>
+              <td><h1 id="startRestTimer">00:00:00</h1></td>
+            </tr>
+            <tr>
+              <th>END <i style="font-size:23px">REST</i></th>
+              <td><h1 id="endRestTimer">00:00:00</h1></td>
+            </tr>
+            <tr>
+              <th>TOTAL <i style="font-size:23px">REST</i></th>
+              <td><h1 id="totalRestTimer">00:00:00</h1></td>
+            </tr>
+            <tr>
+              <th style="border-bottom: none;">AVERAGE <i style="font-size:23px">REST</i></th>
+              <td style="border-bottom: none;"><h1 id="averageRestTimeTimer">00:00:00</h1></td>
+            </tr>
+          </table>
+        </div>
+    </div>
+
+    <div id="contentDivTwo">
+      <div id="startWorkoutTimeContainer">
+        <table style="height: 50px;">
+          <tr>
+            <th>START <i style="font-size:23px">WORKOUT</i></th>
+            <td><h1 id="startWorkoutTimeTimer" style="padding: 21px;">00:00:00</h1></td>
+          </tr>
+          <tr>
+            <th>END <i style="font-size:23px">WORKOUT</i></th>
+            <td><h1 id="stopWorkoutTimeTimer">00:00:00</h1></td>
+          </tr>
+          <tr>
+            <th>TOTAL <i style="font-size:23px">WORKOUT</i></th>
+            <td><h1 id="totalWorkoutTimer">00:00:00</h1></td>
+          </tr>
+          <tr>
+            <th style="border-bottom: none;">AVERAGE <i style="font-size:23px">WORKOUT</i></th>
+            <td style="border-bottom: none;"><h1 id="averageWorkoutTimeTimer">00:00:00</h1></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    
+    <!-- Footer -------------------------------------->
+    <div id="footerContainer">
+      <div id="footerHeader">
+        <div id="logoAndName">
+          <img src="https://i.imgur.com/950J1fr_d.webp?maxwidth=760&fidelity=grand" id="DumbbellImgFooter">
+          <h1 id="footerHeader">Workout Tracker</h1>
+          </div>
+        <img src="https://i.imgur.com/0hmNIqq_d.webp?maxwidth=760&fidelity=grand" id="linkedinImg" onclick="linkedinButton()">
+        <img src="https://i.imgur.com/q4EQ4Me_d.webp?maxwidth=760&fidelity=grand" id="gitHubImg" onclick="gitHubButton()">
+        <p id="copyrightFooter">@2022 WorkoutTracker, M.O. All Rights Reserved.</p>
+        </div>
+      </div>
+  </div>
+  </body>
+</html>
