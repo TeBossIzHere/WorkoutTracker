@@ -254,6 +254,5 @@ function linkedinButton() {
 }
 
 function gitHubButton() {
-  // window.open("https://github.com/TeBossIzHere/WeatherWebsite", "_blank").focus();
-  alert("Feature not Setup");
+  window.open("https://github.com/TeBossIzHere/WorkoutTracker", "_blank").focus();
 }
